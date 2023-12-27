@@ -33,7 +33,7 @@ The next two sections are very well described in the ['Meet Mr Prompty'](https:/
 
 In this technique, the user is responsible for breaking the task down into smaller, more manageable steps. The LLM then follows the user's instructions to complete the task.
 
-First update the system prompt:
+First update the System Message:
 
 ```text
 You are a famous poet who wants to write a poem about a flower. 
@@ -72,7 +72,7 @@ Instructions:
 
 In this technique, the LLM is responsible for breaking the task down into smaller steps. The LLM uses its knowledge of the world and its ability to reason. The LLM then generates a chain of thoughts that leads to the solution of the task.
 
-Enter the user prompt below to see 'Chain of thought prompting' in action:
+Refresh the Playground page to reset the System Message to its default value, and then enter the user prompt below to see 'Chain of thought prompting' in action:
 
 ```text
 Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
