@@ -11,7 +11,7 @@ const config = {
 
   title: "Learn how to interact with OpenAI models",
   tagline: "A 75-minute workshop on OpenAI GPT Models for Microsoft AI Tour",
-  url: "https://github.com/microsoft/Workshop-Interact-with-OpenAI-models",
+  url: "https://aitour.com/",
   baseUrl: "/",
 
   onBrokenLinks: "ignore",
@@ -91,7 +91,7 @@ const config = {
 
       /* Clarity Config */
       clarity: {
-        ID: "", 
+        ID: "gxhc6407pe", 
       }
 
     }),

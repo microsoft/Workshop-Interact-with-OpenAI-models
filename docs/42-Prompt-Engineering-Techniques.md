@@ -1,4 +1,4 @@
-# Prompt Engineering Techniques
+# Lab 2: Prompt Engineering Techniques
 
 As we've seen, natural language Generative AI models can produce unexpected or unwanted responses to prompts. This can be caused by any number of factors, including:
 
