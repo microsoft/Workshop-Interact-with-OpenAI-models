@@ -11,8 +11,8 @@ const config = {
 
   title: "Learn how to interact with OpenAI models",
   tagline: "A 75-minute workshop on OpenAI GPT Models for Microsoft AI Tour",
-  url: "https://aitour.com/",
-  baseUrl: "/",
+  url: "https://microsoft.github.io/",
+  baseUrl: "/Workshop-Interact-with-OpenAI-models/",
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
