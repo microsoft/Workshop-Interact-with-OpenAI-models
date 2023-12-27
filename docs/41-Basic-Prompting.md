@@ -64,7 +64,7 @@ In this case, the model is limited by training data, which is current only up to
 What is the square root of 98765?
 ```
 
-The model will generate an answer to math questions, but there's no guarantee it will be correct. The correct answer here (to 3 dp) is 314.269. Try clicking Regenerate and see if you get the same answer. (If you do get the correct response to a math question from a foundational GPT model, it's only because the question and answer are well represented in the training data.)
+The model will generate an answer to math questions, but there's no guarantee it will be correct. The correct answer here (to 3 dp) is 314.269. Try submitting the same prompt again and see if you get the same answer. (If you do get the correct response to a math question from a foundational GPT model, it's only because the question and answer are well represented in the training data.)
 
 But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
 
@@ -78,7 +78,7 @@ Next, ask the model to solve a puzzle:
 Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is called Julie. What is my mother's name?
 ```
 
-It's a simple puzzle, but the model cannot reason about the relationships between people and will not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
+It's a simple puzzle, but the GPT-3.5 model cannot reason about the relationships between people and may not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
 
 ## Generative AI models can't perform actions
 
