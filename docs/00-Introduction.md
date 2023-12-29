@@ -6,8 +6,8 @@ slug: /
 # Welcome
 
 :::info LEARNING OBJECTIVES
-This is a **60-minute workshop** that teaches you how to work with the OpenAI model ChatGPT (gpt-3.5-turbo). By the end of this workshop you should be able to:
- - Understand the capabilities and implementation of ChatGPT
+This is a **60-minute workshop** that teaches you how to work with the OpenAI model GPT-3.5 Turbo (gpt-3.5-turbo). By the end of this workshop you should be able to:
+ - Understand the capabilities and implementation of GPT models
  - Understand what Prompt Engineering is and best practices for prompting
  - Customize your natural language generative AI models using prompt engineering techniques
 :::
@@ -29,7 +29,7 @@ In this case, the instructor will provide you with an **access key** that you wi
 
 ## Self-Guided Learning
 
-This workshop is also setup for **self-guided learning** at home.
+This workshop is also suitable for **self-guided learning** at home.
 
 In this case, _you will need to bring your own  Azure Subscription (with Azure OpenAI access enabled) or have an active OpenAI subscription_, to work on the exercises. You can then use one of the following playground options to try the exercises out at your own pace and schedule.
  - [Azure AI Studio](https://ai.azure.com) - requires an Azure subscription with Azure OpenAI access enabled.
@@ -37,12 +37,3 @@ In this case, _you will need to bring your own  Azure Subscription (with Azure O
 
 ## Feedback
 We would love to hear your feedback on this lab. Please visit the [GitHub repository for this lab](https://github.com/microsoft/Workshop-Interact-with-OpenAI-models/), and use the Issues tab for bugs or suggestions or create a pull-request with your suggestions.
-
-
-
-  
-
-
-
-
-  
