@@ -1,3 +1,9 @@
+---
+title: Instructor-Led (Event)
+slug: /setup
+---
+
+
 # Setup
 
 :::info PRE-REQUISITES FOR WORKSHOP

@@ -4,7 +4,7 @@
 A large language model (LLM) is a type of AI that can process and produce natural language text. It learns from a massive amount of text data such as books, articles, and web pages to discover patterns and rules of language from them. 
 
 ### How large are they? 
-![Alt Text](images/llm-001.png)
+![Alt Text](../images/llm-001.png)
 
 An LLM is built using a neural network architecture. It takes an input, has a number of hidden layers that break down different aspects of language, and then an output layer. People often report how the next foundational model is bigger than the last - what does this mean? The more parameters a model has, the more data it can process, learn from, and generate. For each connection between two neurons of the neural network architecture, there is a function: weight * input + bias.  These produce numerical values that determine how the model processes language. They are rather large when they can report millions of parameters back in 2018 to trillions of parameters being calculated by GPT4 in 2023.
 
@@ -54,7 +54,7 @@ As a common word, "apple" requires only one token. The word "blueberries" requir
 
 The natural language models generate completions one token at a time, but the generated token is not deterministic. At each step, the model outputs a list of all possible tokens with associated weights. The API samples one token from this list, with heavily-weighted tokens more likely to be selected than the others.
 
-![Alt Text](images/llm-002.png)
+![Alt Text](../images/llm-002.png)
 
 Then it adds that token to the prompt and repeats the process until the "Max length (tokens)" limit is met for the completion, or until the model generates a special token called a "stop token", which prevents further tokens from being generated. (This [blog](https://bea.stollnitz.com/blog/how-gpt-works/) by Beatriz Stollnitz explains the process in more detail.)
 

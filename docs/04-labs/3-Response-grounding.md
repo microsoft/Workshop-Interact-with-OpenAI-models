@@ -1,4 +1,4 @@
-# Lab 3: Response grounding
+# 3️⃣ | Response grounding
 
 Building on top of the system message approach, grounding the response means diving into what is it you want your agent to do/not do. Below are a few examples of ways you can build a responsible agent that will perform well in the real world and when bad actors are trying to deter the agent.
 

@@ -1,4 +1,4 @@
-# Other things to try
+# 6: Things To Try Next
 
 Completed the workshop already? Need something else to do? Here are some other things to try
 

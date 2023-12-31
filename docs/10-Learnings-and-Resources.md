@@ -1,4 +1,4 @@
-# Recap: What we've learned
+# 5: What We've Learned
 
 We hope that in the last hour, you've learned what natural language generative AI models are and how they work, how to access them in Azure OpenAI Service, and started on the path to building applications with them. Here are some key points to remember:
 
