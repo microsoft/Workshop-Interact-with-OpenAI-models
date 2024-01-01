@@ -1,5 +1,5 @@
 ---
-title: "Workshop Outline"
+title: "Outline"
 slug: /outline
 
 ---
