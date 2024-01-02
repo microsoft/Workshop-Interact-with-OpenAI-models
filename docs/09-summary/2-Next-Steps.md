@@ -1,4 +1,8 @@
-# 6: Things To Try Next
+---
+title: "2️⃣ | Things To Try Next"
+slug: /next-steps
+---
+
 
 Completed the workshop already? Need something else to do? Here are some other things to try
 

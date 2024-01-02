@@ -1,5 +1,5 @@
 ---
-title: Setup (Instructor-Led)
+title: 1️⃣ | Instructor-Led (Event)
 slug: /setup
 ---
 

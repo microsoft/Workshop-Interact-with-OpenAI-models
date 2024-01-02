@@ -1,5 +1,5 @@
 ---
-title: Setup (Self-Guided)
+title: 2️⃣ | Self-Guided (Home)
 slug: /self-guided
 ---
 

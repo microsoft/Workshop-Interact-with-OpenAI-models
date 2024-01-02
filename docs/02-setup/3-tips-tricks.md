@@ -1,5 +1,5 @@
 ---
-title: Tips & Troubleshooting
+title: 3️⃣ | Tips & Troubleshooting
 slug: /tips
 ---
 

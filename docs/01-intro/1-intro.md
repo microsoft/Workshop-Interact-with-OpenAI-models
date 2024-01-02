@@ -1,5 +1,5 @@
 ---
-title: "Format"
+title: "1️⃣ | Lab Format"
 slug: /
 ---
 
@@ -9,7 +9,7 @@ It has been designed for _instructor-led_ sessions at Microsoft events but can a
 
 ## 1. Instructor-Led Learning
 
-:::tip REGISTRATION REQUIRED
+:::warning REGISTRATION REQUIRED
 This workshop will be run as an instructor-led session on the ongoing [Microsoft AI Tour](https://aka.ms/msaitour). The event is free **but you must be registered** to attend the workshop.
 :::
 
