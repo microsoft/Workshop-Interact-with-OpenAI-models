@@ -1,4 +1,4 @@
-# 1️⃣ | Basic Prompting
+# Basic Prompting
 
 Prompt Engineering is the process of adding additional context to the prompt to provide "grounding" to the AI model and make it more likely to produce the desired response and less likely to produce undesirable outputs. For example, in a chatbot application, the system would inject additional instructions and data into the prompt before the user's actual input, to provide context to the model.
 

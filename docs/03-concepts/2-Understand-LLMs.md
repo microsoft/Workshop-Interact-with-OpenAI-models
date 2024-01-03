@@ -1,5 +1,5 @@
 ---
-title: "2️⃣ | Large Language Model (LLM)"
+title: "Large Language Model (LLM)"
 slug: /llms
 ---
 

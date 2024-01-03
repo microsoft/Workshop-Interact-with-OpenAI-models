@@ -1,4 +1,4 @@
-# 4️⃣ | Ways of 'learning'
+# Ways of 'learning'
 
 This section discusses prompt engineering techniques that can help LLMs solve certain problems more effectively.
 

@@ -1,5 +1,5 @@
 ---
-title: "4️⃣ | Generative AI"
+title: " Generative AI"
 slug: /generative-ai
 ---
 

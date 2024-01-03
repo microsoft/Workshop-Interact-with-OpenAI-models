@@ -1,5 +1,5 @@
 ---
-title: "2️⃣ | Things To Try Next"
+title: "Things To Try Next"
 slug: /next-steps
 ---
 

@@ -1,4 +1,4 @@
-# 5️⃣ | Function Calling
+# Function Calling
 
 
 

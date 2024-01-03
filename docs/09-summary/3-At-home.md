@@ -1,30 +1,11 @@
 ---
-title: "1️⃣ | Lab Format"
-slug: /
+title: Instructor-Led (Event)
+slug: /at-home
 ---
 
-> _This is a **60-minute** workshop that will give you a hands-on introduction to the core concepts and best practices for interacting with OpenAI models._
 
-It has been designed for _instructor-led_ sessions at Microsoft events but can also be used for _self-guided_ learning at home with additional setup as described below.
 
-## 1. Instructor-Led Learning
 
-:::warning REGISTRATION REQUIRED
-This workshop will be run as an instructor-led session on the ongoing [Microsoft AI Tour](https://aka.ms/msaitour). The event is free **but you must be registered** to attend the workshop.
-:::
-
-In an instructor-led event, you will receive an **access key** at the start of the session that will help you unlock access to a pre-provisioned _custom playground_ for these exercises.
-- [X] An Azure Subscription is activated for you.
-- [X] An Azure Open AI resource is pre-provisioned.
-- [X] An OpenAI `gpt-3.5-turbo` model is deployed for use.
-
-You will then use [this custom playground](https://aka.ms/aitour/playground) application to complete the workshop exercises.
-
-| Microsoft AI Tour: Custom Playground App |
-|:---:|
-| ![AI Tour Playground](./../images/aitour-playground-chat.png) |
-
-If you were not able to complete the workshop in the allotted time, you can still explore the self-guided option at home, with the caveats described below.
 
 ## 2. Self-Guided Learning
 

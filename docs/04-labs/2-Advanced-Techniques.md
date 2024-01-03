@@ -1,4 +1,4 @@
-# 2️⃣ | Advanced Techniques
+# Advanced Techniques
 
 As we've seen, natural language Generative AI models can produce unexpected or unwanted responses to prompts. This can be caused by any number of factors, including:
 

@@ -62,10 +62,9 @@ const config = {
       navbar: {
         title: "Learn how to interact with OpenAI models",
         logo: {
-          alt: "Learn how to interact with OpenAI models",
-          src: "img/Azure-OpenAI-Services.svg",
-        },
-        items: [],
+          alt: "Workshop: Learn how to interact with OpenAI models",
+          src: "img/logo-ws3.png",
+        }
       },
 
       footer: {
@@ -79,7 +78,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
 
-      /* Banner Announcements */
+      /* Banner Announcements
       announcementBar: {
         id: 'Microsoft AI Tour',
         content:
@@ -88,7 +87,7 @@ const config = {
         textColor: '#ffffff',
         isCloseable: false,
       },
-
+ */
       /* Clarity Config */
       clarity: {
         ID: "gxhc6407pe", 

@@ -1,5 +1,5 @@
 ---
-title: "3️⃣ | Tokenization"
+title: "Tokenization"
 slug: /tokenization
 ---
 

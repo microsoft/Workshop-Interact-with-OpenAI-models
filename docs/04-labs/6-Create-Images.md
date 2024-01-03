@@ -1,1 +1,1 @@
-# 6️⃣ | Create Images
+# Create Images
