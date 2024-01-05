@@ -6,7 +6,7 @@ This section discusses prompt engineering techniques that can help LLMs solve ce
 
 LLMs are trained on such large amounts of data they may be be able to perform some tasks with very little prompting. Try the example below and change the sentence to see what outcomes you find.
 
-```text
+```text title="Enter in the user prompt:"
 Classify the text into neutral, negative or positive.
 Text: My calendar today looks ok
 Sentiment:
@@ -16,7 +16,7 @@ Sentiment:
 
 If zero-shot learning is failing for your examples and more complex tasks, few shot prompting can provide examples that can better steer the model to the desired outcomes.  Examples show the model cleanly how we want it to operate. Try the example below to see the outcome. Can you think of other examples that could leverage few-shot learning?
 
-```text
+```text title="Enter in the user prompt:"
 Headline: Twins' Correa to use opt-out, test free agency
 Topic: Baseball
 Headline: Qatar World Cup to have zones for sobering up
@@ -35,14 +35,14 @@ In this technique, the user is responsible for breaking the task down into small
 
 First update the System Message:
 
-```text
+```text title="Enter in the system message:"
 You are a famous poet who wants to write a poem about a flower. 
 You will be given instructions on how to complete the task.
 ```
 
 Enter the user prompt below to see 'break down the task' in action
 
-```text
+```text title="Enter in the user prompt:"
 You will identify the main features of a flower, choose a flower 
 to write about, brainstorm some ideas for the poem, write a draft, 
 revise the poem, and publish the poem
@@ -74,6 +74,7 @@ In this technique, the LLM is responsible for breaking the task down into smalle
 
 Refresh the Playground page to reset the System Message to its default value, and then enter the user prompt below to see 'Chain of thought prompting' in action:
 
-```text
+```text title="Enter in the user prompt:"
 Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
 ```
+

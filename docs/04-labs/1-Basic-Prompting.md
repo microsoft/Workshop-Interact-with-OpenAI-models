@@ -1,22 +1,29 @@
 # Basic Prompting
 
-Prompt Engineering is the process of adding additional context to the prompt to provide "grounding" to the AI model and make it more likely to produce the desired response and less likely to produce undesirable outputs. For example, in a chatbot application, the system would inject additional instructions and data into the prompt before the user's actual input, to provide context to the model.
+:::tip What is prompt engineering?
+Prompt engineering is a concept in Natural Language Processing (NLP) that involves **embedding descriptions of tasks** in input to **prompt the model** to output the **desired results**.
+:::
 
-Lets start with a few prompts and observe the response using the chat interface. Here are some examples to try, but get creative with your own prompts and see what happens!
+Lets start with a few prompts and observe the response using the chat interface. 
 
-```
+Here are some examples to try, but get creative with your own prompts and see what happens!
+
+```text title="Enter in the Enter in the user prompt:"
 What is the capital of Australia?
 ```
 
-```
+```text title="Enter in the user prompt:"
 A recipe for banana bread, and an itemized shopping list of the ingredients.
 ```
 
-```
-What were the 10 top movies of 2001? Respond in the form of a table listing the movie name, the box office earnings, and the studio.
+```text title="Enter in the user prompt:"
+What were the 10 top movies of 2001? 
+Respond in a list.
+Listing the movie name, the box office earnings, and the studio
+Ranking the movies from 1 to 10 in the list.
 ```
 
-```
+```text title="Enter in the user prompt:"
 Write a Python function to calculate the nth prime number.
 ```
 
@@ -26,7 +33,7 @@ Even though the outputs are generated based on frequencies of similar content in
 
 Try a prompt like this:
 
-```
+```text title="Enter in the user prompt:"
 Write a limerick about the Python programming language
 ```
 
@@ -38,7 +45,7 @@ The Temperature parameter controls how "creative" the model is allowed to be. At
 
 Here is another prompt to try with different Temperature values:
 
-```
+```text title="Enter in the user prompt:"
 What is a unique and long name for a cat?
 ```
 
@@ -54,13 +61,13 @@ Natural language generative AI models have a number of limitations:
 
 Here are some example prompts that demonstrate these weaknesses:
 
-```
+```text title="Enter in the user prompt:"
 When did Queen Elizabeth II die?
 ```
 
 In this case, the model is limited by training data, which is current only up to June 2021.
 
-```
+```text title="Enter in the user prompt:"
 What is the square root of 98765?
 ```
 
@@ -68,13 +75,13 @@ The model will generate an answer to math questions, but there's no guarantee it
 
 But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
 
-```
+```text title="Enter in the user prompt:"
 Write Python code to calculate the square root of 98765
 ```
 
 Next, ask the model to solve a puzzle:
 
-```
+```text title="Enter in the user prompt:"
 Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is called Julie. What is my mother's name?
 ```
 
@@ -84,7 +91,7 @@ It's a simple puzzle, but the GPT-3.5 model cannot reason about the relationship
 
 Clear the contents of the chat box. Enter the following text:
 
-```
+```text title="Enter in the user prompt:"
 What are the 5 stocks listed on https://finance.yahoo.com/trending-tickers with the largest market cap?
 ```
 
@@ -94,7 +101,7 @@ Although the model will respond with a plausible answer, look closely: those are
 
 Clear the contents of the prompt box. Enter the following text, then click Generate.
 
-```
+```text title="Enter in the user prompt:"
 Write an obituary for the poet Harold Bloomsbury. Include references.
 ```
 

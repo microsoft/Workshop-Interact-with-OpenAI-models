@@ -1,6 +1,8 @@
 # Function Calling
 
-
+:::tip What is function calling? 
+XXX
+:::
 
 The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
 
