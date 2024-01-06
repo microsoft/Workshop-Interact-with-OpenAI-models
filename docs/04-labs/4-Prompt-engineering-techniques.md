@@ -1,4 +1,8 @@
-# Ways of 'learning'
+# Prompt engineering techniques
+
+:::tip Do OpenAI models learn?
+OpenAI models like GPT-3 do not learn or adapt during user interactions. They generate responses based on pre-training with a large dataset and do not update their knowledge from individual conversations. Any improvements or updates to the model's capabilities are made through a controlled retraining process by OpenAI, not through real-time learning.
+:::
 
 This section discusses prompt engineering techniques that can help LLMs solve certain problems more effectively.
 
@@ -78,3 +82,6 @@ Refresh the Playground page to reset the System Message to its default value, an
 Who was the first person to walk on the moon? Take a step-by-step approach in your response, cite sources, and give reasoning before sharing a final answer in the below format: ANSWER is: <name>
 ```
 
+:::info[Assignment]
+Create a prompt for the assistant that helps determine the best way of traveling between Amsterdam and London and explain why.
+:::

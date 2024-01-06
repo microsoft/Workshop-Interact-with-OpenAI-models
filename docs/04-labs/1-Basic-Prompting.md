@@ -8,7 +8,7 @@ Lets start with a few prompts and observe the response using the chat interface.
 
 Here are some examples to try, but get creative with your own prompts and see what happens!
 
-```text title="Enter in the Enter in the user prompt:"
+```text title="Enter in the user prompt:"
 What is the capital of Australia?
 ```
 
@@ -106,3 +106,19 @@ Write an obituary for the poet Harold Bloomsbury. Include references.
 ```
 
 There has never been a poet (nor indeed any person, according to web search) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
+
+
+As we've seen, natural language Generative AI models can produce unexpected or unwanted responses to prompts. This can be caused by any number of factors, including:
+
+- Insufficient information in the training data
+- Insufficient context in the prompt
+- Lack of capability of the model itself
+- Hostile intent by the user providing the prompt ("jailbreaking")
+
+Prompt Engineering is a complex and rapidly-evolving practice. [This article](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/advanced-prompt-engineering) on Microsoft Learn provides the latest guidance.
+
+In the next labs we are going to learn how to stear the models to create the response we want.
+
+:::info[Assignment]
+Create a prompt that generates a rhyme about a lost kangaroo in the middle of the city.
+:::
