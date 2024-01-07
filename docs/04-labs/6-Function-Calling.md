@@ -1,7 +1,7 @@
 # Function Calling
 
 :::tip What is function calling? 
-XXX
+GPT-3.5 and GPT-4 models can take user-defined functions as input and generate structured output. 
 :::
 
 The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
@@ -18,7 +18,7 @@ At a high level you can break down working with functions into three steps:
 ### System Message
 
 First update the system message. 
-- In this system message explain the goal of the assitant
+- In this system message explain the goal of the assistant
 - Explain the information that needs to be gathered
 - Which function to all if all information is gathered
 
@@ -77,6 +77,6 @@ I'm looking for a hotel in the Netherlands
 The agent should start asking you about location, price and hotel features and finally call the function and return the properties in json format. 
 
 
-:::tip[Assignment]
+:::info[Assignment]
 Extend the function to ask for how many people the room is.
 :::

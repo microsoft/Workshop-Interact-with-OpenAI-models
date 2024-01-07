@@ -1,13 +1,10 @@
 ---
-title: Instructor-Led (Event)
+title: At home
 slug: /at-home
 ---
 
 
-
-
-
-## 2. Self-Guided Learning
+## At home
 
 :::warning ADDITIONAL SETUP REQUIRED
 This workshop can be completed at home as a self-guided session. However, this will require additional setup effort and dependencies as described.

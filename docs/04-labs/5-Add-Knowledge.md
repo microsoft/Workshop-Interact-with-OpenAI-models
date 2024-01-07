@@ -94,7 +94,7 @@ Retrieval-Augmented Generation (RAG) combines a language model with a search sys
 
 ![Retrieval-Augmented Generation](./../images/rag.png)
 
-:::tip Want to learn more?
+:::info Want to learn more?
 Join the workshop: "Build your RAG Application in Promptflow in Azure AI Studio".
 [Find the Microsoft AI Tour Schedule here](https://msevents.microsoft.com/event?id=2142590774)
 :::
