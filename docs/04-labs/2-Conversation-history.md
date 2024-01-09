@@ -1,17 +1,11 @@
 # Conversation history
 
-As we've seen, natural language Generative AI models can produce unexpected or unwanted responses to prompts. This can be caused by any number of factors, including:
 
-- Insufficient information in the training data
-- Insufficient context in the prompt
-- Lack of capability of the model itself
-- Hostile intent by the user providing the prompt ("jailbreaking")
-
-In this section we will see how adding system messages, one-shot examples and conversation history provide grounding for a model and these are not the only techniques. Prompt Engineering is a complex and rapidly-evolving practice. [This article](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/advanced-prompt-engineering) on Microsoft Learn provides the latest guidance.
-
-
-
+:::tip How to remember context?
 Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the foundation model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'
+:::
+
+Let's see for ourselfs to see how we can have a conversation with context.
 
 Try a conversation like this, enter the text below:
 
@@ -42,3 +36,7 @@ What about the isotopes?
 ```
 
 Without the context of the prior messages, the model responds with a generalized answer about isotopes. 
+
+:::info[Assignment]
+Try having a conversation and make the model remember your name birthdate.
+:::

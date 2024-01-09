@@ -1,22 +1,9 @@
 ---
-title: "Things To Try Next"
+title: "Things to try text"
 slug: /next-steps
 ---
 
-
 Completed the workshop already? Need something else to do? Here are some other things to try
-
-## Generate Images with Bing Create
-
-> NOTE: A Microsoft account is required for this section
-
-1. Go to [Bing Create](https://www.bing.com/create) and sign in with your Microsoft account if prompted
-
-Bing Create uses the Dall-E image generation model to generate an image from a prompt you supply. 
-
-2. Click the "Surprise Me" button to generate a random prompt, and then click "Create" to geneate an image based on that prompt.
-
-3. Try entering your own prompt and see what images are generated.
 
 ## Have a conversation with Copilot
 
@@ -48,14 +35,6 @@ How's today's weather in Seattle, WA
 ```
 ```
 What big news happened today?
-```
-
-## Generate an image in Creative mode
-
-As the name suggests, Creative mode is best for generating creative responses that won't necessarily be grounded in facts: poetry, jokes, and so on. You can also use Bing Chat in creative mode to generate images. Try something like this:
-
-```
-Draw a logo for an ice-cream shop located in Hawaii near the beach.
 ```
 
 Try other prompts and see what creative responses you can get!

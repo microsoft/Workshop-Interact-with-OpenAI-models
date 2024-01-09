@@ -26,6 +26,7 @@ In the Prompt box, enter a description of an image you’d like to generate. For
 
 Modify the prompt to provide a more specific description. For example **An elephant on a skateboard in the style of Picasso**. Then generate the new image and review the results.
 
+![squirrel](./../images/dall-e-skateboard.png)
 
 
 ## Best practices
@@ -55,14 +56,15 @@ Remember that AI image generation is still an evolving technology, and sometimes
 
 
 :::tip[Assignment]
-Have fun creating images, try and create images in different styles
+Have fun creating images, try and create images in different styles.   
+**Note that the Dall-E API revises your prompt**
 :::
 
 ## Some fun things to try out
 
-- Create a new cartoon charactar
-- Design some cool furnature
-- Imagine a brand new car or other vehical
+- Create a new cartoon character
+- Design some cool furniture
+- Imagine a brand new car or other vehicle
 - Create a completely new planet
 - Try to make it write your letter
 - Try creating a vintage style card of a famous landmark.
