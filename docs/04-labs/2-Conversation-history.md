@@ -5,7 +5,7 @@
 Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the foundation model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'
 :::
 
-Let's see for ourselfs to see how we can have a conversation with context.
+Let's see for ourselves how we can have a conversation with context.
 
 Try a conversation like this, enter the text below:
 
