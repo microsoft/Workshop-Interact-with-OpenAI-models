@@ -44,7 +44,7 @@ Try clearing the chat (click the "Clear Chat" button) and starting over with you
 
 Your model, like any piece of technology used for business, is like your brand. So you want it to have the same approach and ethis you instill in your code of conducts across the business. Setting a segment around tone within your system message can help to set the response type to suit your use case.
 
-Set the system the system message:
+Set the system message:
 
 ```text title="Enter in the system message:"
 You are a friendly, polite chatbot.
@@ -71,7 +71,7 @@ Ask it again how it can help you and see how your answer differs.
 
 ## Stick to the subject
 
-Language models can do manny different things: that's what's so impressive about them compared with traditional NLP models. However with lots of knowledge comes a whole lot of randomness too. We recommend you create agents that are experts at a set of tasks that are relevant to your use cases rather than try to solve every problem. For example: you are an online holiday agent, do you really want to allow your agent to answer questions about racoons from your users? Is that relevant to your business needs?
+Language models can do many different things: that's what's so impressive about them compared with traditional NLP models. However with lots of knowledge comes a whole lot of randomness too. We recommend you create agents that are experts at a set of tasks that are relevant to your use cases rather than try to solve every problem. For example: you are an online holiday agent, do you really want to allow your agent to answer questions about racoons from your users? Is that relevant to your business needs?
 
 Lets try it out. Set the system message as follows:
 
