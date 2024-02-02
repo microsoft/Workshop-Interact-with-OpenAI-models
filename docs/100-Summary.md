@@ -1,5 +1,5 @@
 ---
-title: "What We've Learned"
+title: "Summary"
 slug: /summary
 ---
 
