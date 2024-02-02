@@ -9,7 +9,7 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     permissions:
-      actions: read
+      actions: write
       contents: read
       deployments: read
       packages: none
