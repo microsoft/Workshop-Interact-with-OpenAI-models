@@ -89,10 +89,6 @@ const config = {
       },
  */
       /* Clarity Config */
-      clarity: {
-        ID: "gxhc6407pe", 
-      }
-
     }),
 
     plugins: [
@@ -105,11 +101,6 @@ const config = {
           steps: 4, // #images b/w min and max (inclusive)
           disableInDev: false,
         },
-      ],
-      [
-        'docusaurus-plugin-clarity',
-        {
-        }
       ],
     ],
 };
