@@ -38,5 +38,5 @@ What about the isotopes?
 Without the context of the prior messages, the model responds with a generalized answer about isotopes. 
 
 :::info[Assignment]
-Try having a conversation and make the model remember your name birthdate.
+Try having a conversation and make the model remember your name and birth date.
 :::

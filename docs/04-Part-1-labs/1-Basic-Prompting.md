@@ -201,7 +201,7 @@ Prompt Engineering is a complex and rapidly-evolving practice. [This article](ht
 
 
 
-In the next labs we are going to learn how to stear the models to create the response we want.
+In the next labs we are going to learn how to steer the models to create the response we want.
 
 :::info[Assignment]
 Create a prompt that generates a rhyme about a lost kangaroo in the middle of the city.
