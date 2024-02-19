@@ -23,7 +23,7 @@ Let's start and fix that problem by giving the model the right information on ru
 
 First we start with giving the assistant a specific task.
 
-```text title="Enter in the system prompt:"
+```text title="Enter in the system message:"
 ## Task
 You are an Trailwalker Hiking shoe store AI assistant. 
 You help users answer questions about our shoe products.
@@ -44,12 +44,17 @@ Notice that the assistant will respond that it has not enough information to ans
 
 Now let's add some product information to the prompt. Imagine here that you have done a search query in a database and got the products below back.
 
-Add this information to the system prompt.
+Update the System Message with Retrieved documents:
 
-```text title="Enter in the system prompt:"
+```text title="Enter in the system message:"
+You are an Trailwalker Hiking shoe store AI assistant. 
+You help users answer questions about our shoe products.
+You will be given search results as retrieved Documents that contain product information.
+Your answer should be as precise as possible.
+Your answer should only come from the retrieved Documents with product information.
+If the Retrieved Documents do not contain sufficient information to answer user message completely, you do not answer the question and inform the user you do not have enough information.
 
 ## Retrieved Documents
-No information found.
 
 Product name: Trailwalker X1
 Product description:
@@ -67,8 +72,8 @@ Constructed with advanced waterproof materials and an aggressive, multi-directio
 Product name: Rockclimber U5
 Product description:
 Designed with rock enthusiasts in mind, these hiking shoes feature advanced rubber outsoles for unmatched traction on rocky terrains, reinforced toe caps for protection against abrasions, and a snug, supportive fit to ensure stability during your most challenging ascents. Ideal for scaling craggy landscapes, they offer the perfect blend of durability, comfort, and grip to keep you confidently moving upward.
-
 ```
+
 Clear the conversation and ask the question again.
 
 ```text title="Enter in the user prompt:"
@@ -96,5 +101,5 @@ Retrieval-Augmented Generation (RAG) combines a language model with a search sys
 
 :::info Want to learn more?
 Join the workshop: "Build your RAG Application in Promptflow in Azure AI Studio".
-[Find the Microsoft AI Tour Schedule here](https://msevents.microsoft.com/event?id=2142590774)
+[Find the Microsoft AI Tour Schedule here](https://envision.microsoft.com/home)
 :::
