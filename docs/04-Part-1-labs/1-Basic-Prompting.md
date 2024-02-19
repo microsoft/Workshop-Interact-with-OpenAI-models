@@ -49,7 +49,9 @@ Here is another prompt to try with different Temperature values:
 What is a unique and long name for a cat?
 ```
 
-**Make sure the Temperature parameter is reset to 1 before you continue.**
+> Note: When dealing with LLMs, the results can be unpredictable. Changing the temperature here might or might not work as expected. Also, we are using a relatively old version of GPT3.5. The temperature effect is more visible in more recent LLMs such as GPT4.
+
+**Make sure the Temperature parameter is reset to 0.7 before you continue.**
 
 ## Less-useful prompts
 
@@ -87,6 +89,8 @@ Steven is my uncle. Steven has two children, Sam and Lindsay. Sam's sole aunt is
 
 It's a simple puzzle, but the GPT-3.5 model cannot reason about the relationships between people and may not be able to solve it. (More advanced models like GPT-4 are more likely to get the answer right, but are still not guaranteed to do so.)
 
+> Note: If you repeat the question a few times, it's possible that the model finds the correct answer!
+
 ## Generative AI models can't perform actions
 
 Clear the contents of the chat box. Enter the following text:
@@ -102,7 +106,7 @@ Although the model will respond with a plausible answer, look closely: those are
 Clear the contents of the prompt box. Enter the following text, then click Generate.
 
 ```text title="Enter in the user prompt:"
-Write an obituary for the poet Harold Bloomsbury. Include references.
+Write a short obituary for the poet Harold Bloomsbury. Include references.
 ```
 
 There has never been a poet (nor indeed any person, according to web search) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
@@ -133,11 +137,7 @@ In this example, we "primed" the model with the desired output format: a header 
 ```
 There are many fruits that were found on the recently discovered planet Goocrux. There are neoskizzles that grow there, which are purple and taste like candy. There are also loheckles, which are a grayish blue fruit and are very tart, a little bit like a lemon. Pounits are a bright green color and are more savory than sweet. There are also plenty of loopnovas which are a neon pink flavor and taste like cotton candy. Finally, there are fruits called glowls, which have a very sour and bitter taste which is acidic and caustic, and a pale orange tinge to them.
 
-
-Please make a table summarizing the fruits from Goocrux
-| Fruit | Color | Flavor |
-| Neoskizzles | Purple | Sweet |
-| Loheckles | Grayish blue | Tart |
+Please create a table summarizing the fruits from Goocrux in a markdown table shown as code
 ```
 
 Try extending the prompt by appending the following text:
