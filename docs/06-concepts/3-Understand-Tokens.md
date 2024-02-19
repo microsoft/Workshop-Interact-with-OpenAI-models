@@ -7,7 +7,7 @@ We've mentioned "tokens" a few times in previous lessons, but we didn't explain 
 
 ## What is Tokenization?
 
-The OpenAI natural language models don't operate on words or characters as units of text, but instead use something in-between: **tokens.** By [definition](https://platform.openai.com/docs/introduction/tokens) tokens are text "chunks" that represent _commonly occuring sequences of characters_ in the large language training dataset.
+The OpenAI natural language models don't operate on words or characters as units of text, but instead use something in-between: **tokens.** By [definition](https://platform.openai.com/docs/introduction/tokens) tokens are text "chunks" that represent _commonly occurring sequences of characters_ in the large language training dataset.
  - A token can be a single character, fraction of a word, or an entire word. 
  - Many common words are represented by a single token.
  - Less common words are represented by multiple tokens.
@@ -39,7 +39,7 @@ The table below shows the context window (max tokens) and the model pricing (bil
 
 Note how newer models like gpt-4-32k have much larger token limits: up to 32,768 tokens. This not only allows for longer completions but also much larger prompts. This is particularly useful for prompt engineering, as we'll see later. 
 
-Keep in mind that usage cost is correspondingly higher. Prompt engineering techniques can also help improve cost efficiency by crafting prompts that minimize token usage costs without sacrficing quality of responses.
+Keep in mind that usage cost is correspondingly higher. Prompt engineering techniques can also help improve cost efficiency by crafting prompts that minimize token usage costs without sacrificing quality of responses.
 
 ## OpenAI Tokenizer Tool
 
