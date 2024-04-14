@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Learn how to interact with OpenAI models",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Workshop: Learn how to interact with OpenAI models",
+    "description": "The alt text of navbar logo"
+  }
+}

@@ -25,7 +25,7 @@ const config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ko"],
   },
 
   presets: [
@@ -64,7 +64,13 @@ const config = {
         logo: {
           alt: "Workshop: Learn how to interact with OpenAI models",
           src: "img/logo-ws3.png",
-        }
+        },
+        items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+        ]
       },
 
       footer: {

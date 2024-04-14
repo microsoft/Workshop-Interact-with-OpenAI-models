@@ -18,7 +18,7 @@ The OpenAI natural language models don't operate on words or characters as units
 
 Given an input prompt, the natural language models generate completions one token at a time. However, the generated token is not deterministic. At each step, the model outputs a list of all possible tokens with associated weights. The API samples one token from this list, with heavily-weighted tokens more likely to be selected than the others.
 
-![Alt Text](../images/llm-002.png)
+![Explanation of tokens used](../images/llm-002.png)
 
 It then adds that token to the prompt and repeats the process until the "max token count" limit (context window) is met for the completion - or until the model generates a special "stop token", which halts further token generation. (This [blog post](https://bea.stollnitz.com/blog/how-gpt-works/) by Beatriz Stollnitz explains the process in detail.)
 
@@ -53,7 +53,7 @@ Visit the site and click "show example" to see it in action as shown below. Each
 
 Note how "1234567890" and "underlying" have the same string lengths - but the former counts for 4 tokens while the latter counts for 1. Also observe how punctuation (":",".") take up 1 token each, cutting into prompt token limits.
 
-![](../images/tokenizer-example.png)
+![Image of tokenizer example](../images/tokenizer-example.png)
 
 ### Try The Exercises
 
