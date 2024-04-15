@@ -6,7 +6,7 @@ slug: /llms
 A large language model (LLM) is a type of AI that can process and produce natural language text. It learns from a massive amount of text data such as books, articles, and web pages to discover patterns and rules of language from them. 
 
 ### How large is an LLM?
-![Alt Text](../images/llm-001.png)
+![Explanation of LLM](../images/llm-001.png)
 
 An LLM is built using a **neural network architecture**. It takes an input, has a number of hidden layers that break down different aspects of language, and then an output layer. People often report how the next foundational model is bigger than the last - what does this mean? The more parameters a model has, the more data it can process, learn from, and generate. 
 

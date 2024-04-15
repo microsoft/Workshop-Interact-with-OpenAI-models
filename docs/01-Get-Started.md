@@ -24,7 +24,7 @@ On successful login, the playground application should update to show a `Logout`
 
 Let's take a minute to familiarize ourselves with the different regions of this app.
 
-![](./images/aitour-playground-regions.png)
+![AI Tour Playground Regions](./images/aitour-playground-regions.png)
 
 - Region 1️⃣ | Once authorized, shows the event profile.
 - Region 2️⃣ | User prompt - used to enter text questions for AI

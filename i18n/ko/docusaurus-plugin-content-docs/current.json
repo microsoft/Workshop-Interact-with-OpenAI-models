@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category. Part 1 - Labs": {
+    "message": " 1부 - 워크샵",
+    "description": "The label for category  Part 1 - Labs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. Part 2 - Labs": {
+    "message": " 2부 - 워크샵",
+    "description": "The label for category  Part 2 - Labs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Concepts & resources": {
+    "message": "개념 및 리소스",
+    "description": "The label for category Concepts & resources in sidebar tutorialSidebar"
+  }
+}
