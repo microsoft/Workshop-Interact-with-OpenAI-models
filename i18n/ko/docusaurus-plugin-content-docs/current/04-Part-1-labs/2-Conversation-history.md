@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 대화 내역
 
 :::note 일러두기

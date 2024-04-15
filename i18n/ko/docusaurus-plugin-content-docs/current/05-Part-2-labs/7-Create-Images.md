@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 이미지 만들기
 
 :::note 일러두기

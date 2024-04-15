@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 펑션 콜링
 
 :::note 일러두기

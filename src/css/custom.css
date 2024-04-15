@@ -4,7 +4,9 @@
  * work well for content-centric websites.
  */
 
- [data-theme='dark'] {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+[data-theme='dark'] {
   --ifm-color-primary: #4ddbff;
   --ifm-color-primary-dark: #2cd4ff;
   --ifm-color-primary-darker: #1bd1ff;
@@ -58,6 +60,9 @@
   --ifm-color-primary-lightest: #abe3ca;
 } */
 
+body.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
 .header-github-link:hover {
   opacity: 0.6;

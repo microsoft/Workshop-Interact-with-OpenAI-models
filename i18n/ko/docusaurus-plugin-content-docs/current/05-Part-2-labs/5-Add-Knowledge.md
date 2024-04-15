@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 지식 추가하기
 
 :::note 일러두기

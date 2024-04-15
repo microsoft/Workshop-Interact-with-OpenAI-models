@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 시스템 메시지
 
 :::note 일러두기

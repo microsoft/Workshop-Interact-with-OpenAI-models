@@ -3,6 +3,10 @@ title: "대규모 언어 모델(LLM)"
 slug: /llms
 ---
 
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 :::note 일러두기
 이 페이지는 기계 번역을 통해 한국어로 번역했습니다. 어색한 표현이 있을 수 있으니 양해 바랍니다.
 :::

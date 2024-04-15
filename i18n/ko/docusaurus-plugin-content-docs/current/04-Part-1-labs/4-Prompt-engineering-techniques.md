@@ -1,3 +1,7 @@
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 # 프롬프트 엔지니어링 테크닉
 
 :::note 일러두기

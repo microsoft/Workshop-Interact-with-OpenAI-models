@@ -3,6 +3,10 @@ title: "집에서 해 보기"
 slug: /at-home
 ---
 
+<head>
+  <body className="navigation-with-keyboard ko" />
+</head>
+
 ## 집에서 해 보기
 
 :::note 일러두기
