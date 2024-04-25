@@ -31,8 +31,8 @@ GPT-3.5 및 GPT-4 모델은 사용자 정의 펑션을 입력으로 받아 구�
 - 모든 정보가 수집되면 어떤 함수를 사용할지 설명하세요.
 
 ```text title="시스템 메시지"
-귀하는 사람들이 호텔을 찾을 수 있도록 도와주는 AI 어시스턴트입니다. 
-사용자와의 대화에서 search_hotels 함수에 필요한 필드를 검색하는 것이 목표입니다.
+You are an AI assistant that helps people find hotels. 
+In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
 ```
 
 ### OpenAI 펑션
@@ -48,24 +48,24 @@ GPT-3.5 및 GPT-4 모델은 사용자 정의 펑션을 입력으로 받아 구�
 ```json title="Functions"
 [{
   "name": "search_hotels",
-  "description": "검색 색인을 기반으로 호텔을 검색합니다.",
+  "description": "Retrieves hotels from the search index based",
   "parameters": {
-    "type": "객체",             
+    "type": "object",             
     "properties": {
       "location": {
         "type": "string",
-        "description": "호텔 위치(예: 워싱턴주 시애틀)"
+        "description": "The location of the hotel (i.e. Seattle, WA)"
       },
       "price": {
         "type": "number",
-        "description": "호텔의 최대 가격"
+        "description": "The maximum price for the hotel"
       },
       "features": {
         "type": "string",
-        "description": "쉼표로 구분된 기능 목록(예: 해변가, 무료 와이파이 등)"
+        "description": "A comma separated list of features (i.e. beachfront, free wifi, etc.)"
       }
-    },
-    "required": ["location", "price", "features"]
+     },
+    "required": ["location","price","features"]
   }
 }]
 ```

@@ -56,7 +56,7 @@ AI 모델(또는 머신러닝 모델)은  특정 유형의 패턴을 _인식하�
 
 OpenAI에는 사용자가 제공한 자연어 텍스트 입력 또는 **"프롬프트"**에서 다양한 유형의 콘텐츠(텍스트, 이미지, 오디오, 코드)를 "생성"할 수 있는 [다양한 언어 모델 집합](https://platform.openai.com/docs/models/overview)이 있습니다. Azure OpenAI 서비스는 REST API를 통해 이러한 OpenAI 모델에 대한 액세스를 제공합니다. 
 
-[현재 사용 가능한 모델](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)에는 GPT-4, GPT-4 Turbo 미리 보기, GPT-3.5, 임베딩, DALL-E(미리 보기) 및 Whisper(미리 보기)가 포함됩니다. 기본 모델에 대한 OpenAI 업데이트와 보조를 맞추기 위해 [정기적으로 새 버전을 릴리스](https://learn.microsoft.com/azure/ai-services/openai/concepts/model-versions)하는 Azure OpenAI. 개발자는 프로그래밍 방식으로(Python SDK 사용) 또는 브라우저를 통해(Azure AI Studio 사용) 액세스할 수 있습니다.
+[현재 사용 가능한 모델](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)에는 GPT-4, GPT-4 Turbo 미리 보기, GPT-3.5, 임베딩, DALL-E(미리 보기) 및 Whisper(미리 보기)가 포함됩니다. 기본 모델에 대한 OpenAI 업데이트와 보조를 맞추기 위해 [정기적으로 새 버전을 릴리스](https://learn.microsoft.com/azure/ai-services/openai/concepts/model-versions)하는 Azure OpenAI. 개발자는 프로그래밍 방식으로(파이썬 SDK 사용) 또는 브라우저를 통해(Azure AI Studio 사용) 액세스할 수 있습니다.
 
 [🔖 | 자세히 알아보기](https://learn.microsoft.com/azure/ai-services/openai/overview).
 

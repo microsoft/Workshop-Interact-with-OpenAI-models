@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'i18n/*'
+      - 'l10n/*'
 jobs:
   deploy:
     name: Deploy to GitHub Pages
