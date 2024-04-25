@@ -53,5 +53,5 @@ slug: /setup
 프롬프트 기반 실습에서는 프롬프트 입력이 _코드 블록_ 스니펫으로 제공됩니다. 브라우저에서 이 페이지를 보고 있을 때 아래 코드 블록 영역 내를 클릭하면 오른쪽에 `복사` 아이콘이 나타납니다. 이를 클릭하여 프롬프트를 클립보드로 복사한 다음 Playground의 텍스트 입력 영역에 <kbd>Ctrl-V</kbd> (또는 <kbd>Cmd-V</kbd>)를 사용하여 붙여넣으세요.
 
 ```text
-This is the prompt text you need to enter into the chat prompt input field.
+프롬프트 인풋 필드에 입력할 프롬프트 텍스트입니다.
 ```
