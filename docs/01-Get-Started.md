@@ -7,7 +7,8 @@ slug: /setup
 
 - **Use your own laptop**.
 - **Launch a modern browser**. (Use edge or chrome for the best experience)
-  :::
+
+:::
 
 For this workshop you are using a custom playground build on-top of the Azure OpenAI Service. In this playground you will have the opportunity to play with the prompts and learn how to interact with OpenAI Models.
 
