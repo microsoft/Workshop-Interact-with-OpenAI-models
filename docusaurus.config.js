@@ -17,6 +17,7 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   trailingSlash: true,
+  
 
   organizationName: "gloveboxes", 
   projectName: "Workshop-Interact-with-OpenAI-models", 
