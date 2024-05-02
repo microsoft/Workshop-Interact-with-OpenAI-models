@@ -18,7 +18,7 @@ You will be using your AI Proxy API Key that you registered for.
 1. Navigate to the AI Proxy Playground. You will find this link when you registered for this workshop.
 2. Enter the **API Key** at top-right and click `Authorize` to login.
     ![AI Tour Playground](./images/aitour-playground-chat.png)
-3. Select a model from the dropdown list.
+
 
 ## Explore
 
@@ -37,6 +37,10 @@ Let's take a minute to familiarize ourselves with the different regions of this 
 - Region 7️⃣ | Image generation - access the DALL-E model playground
 
 ## Tips
+
+### 0. Select a Model
+
+The playground supports multiple models. You must select a model from the **Model** dropdown in the **Configuration** section before you can interact with the model.
 
 ### 1. Clear Chat Sessions
 
