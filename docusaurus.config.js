@@ -18,7 +18,6 @@ const config = {
   onBrokenMarkdownLinks: "ignore",
   trailingSlash: true,
   
-
   organizationName: "gloveboxes", 
   projectName: "Workshop-Interact-with-OpenAI-models", 
   deploymentBranch: "gh-pages", 
