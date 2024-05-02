@@ -38,15 +38,15 @@ Let's take a minute to familiarize ourselves with the different regions of this 
 
 ## Tips
 
-### 0. Select a Model
+### 1. Select a Model
 
 The playground supports multiple models. You must select a model from the **Model** dropdown in the **Configuration** section before you can interact with the model.
 
-### 1. Clear Chat Sessions
+### 2. Clear Chat Sessions
 
 The output of the model is influenced by the contents of the chat session. To ensure that the output of the model is not influenced by previous prompts, click the "Clear Chat" button **before entering each new prompt**.
 
-### 2. Copy-Paste Snippets
+### 3. Copy-Paste Snippets
 
 In a prompt-based exercise, you will find the prompt input is provided to you in a _code-fenced_ snippet as shown below. When viewing this page in a browser, _click_ within the code-fenced region below to see a `copy` icon appear at the right. Click it to copy the prompt into your clipboard - then paste using <kbd>Ctrl-V</kbd> (or equivalent) command into the text input region in Playground.
 
