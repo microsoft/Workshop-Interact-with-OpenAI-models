@@ -18,8 +18,7 @@ You will be using your AI Proxy API Key that you registered for.
 
 1. Navigate to the AI Proxy Playground. You will find this link when you registered for this workshop.
 2. Enter the **API Key** at top-right and click `Authorize` to login.
-    ![AI Tour Playground](./images/aitour-playground-chat.png)
-
+   ![AI Tour Playground](./images/aitour-playground-chat.png)
 
 ## Explore
 
