@@ -11,14 +11,14 @@ const config = {
 
   title: "Learn how to interact with OpenAI models",
   tagline: "A 75-minute workshop on OpenAI GPT Models for Microsoft AI Tour",
-  url: "https://gloveboxes.github.io/",
+  url: "https://microsoft.github.io/",
   baseUrl: "/Workshop-Interact-with-OpenAI-models/",
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   trailingSlash: true,
-  
-  organizationName: "gloveboxes", 
+
+  organizationName: "microsoft", 
   projectName: "Workshop-Interact-with-OpenAI-models", 
   deploymentBranch: "gh-pages", 
   favicon: "img/favicon.ico",
@@ -38,7 +38,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl: "https://github.com/gloveboxes/Workshop-Interact-with-OpenAI-models/tree/main",
+          //editUrl: "https://github.com/microsoft/Workshop-Interact-with-OpenAI-models/tree/main",
         },
         blog: false,
         theme: {
